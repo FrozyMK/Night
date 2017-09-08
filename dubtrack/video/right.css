@@ -1,0 +1,17 @@
+/* Video to the right */
+#main-room:not(.fullscreenParent) { float: right; }
+#main-room:not(.fullscreenParent) .left_section {
+  margin-top: 0;
+  width: 40%;
+  float: right;
+  right: 0;
+  left: initial;
+  padding-right: 0px;
+}
+#main-room:not(.fullscreenParent) #main_player { padding: 0.5em .4em .5em .5em }
+
+/* Video to the top */
+#main-room > div > section.left_section > div.main-player-wrapper{
+  vertical-align: top;
+  padding-top: 35px;
+}

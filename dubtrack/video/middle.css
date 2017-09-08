@@ -1,0 +1,17 @@
+/* Video to the middle */
+#main-room:not(.fullscreenParent) { 
+  margin: 0px !important;
+}
+#main-room:not(.fullscreenParent) .left_section {
+  margin-top: 0;
+  width: 25vw;
+  left: 37.5vw;
+  padding: 0px;
+}
+#main-room:not(.fullscreenParent) #main_player { padding: 0.5em .5em .5em .5em }
+
+/* Video to the top */
+#main-room > div > section.left_section > div.main-player-wrapper{
+  vertical-align: top;
+  padding-top: 35px;
+}

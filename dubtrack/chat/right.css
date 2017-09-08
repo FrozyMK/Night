@@ -1,0 +1,15 @@
+/* Chat completly to the right */
+#main-room:not(.fullscreenParent) .right_section {
+  right: 0;
+  margin-right: 0px !important;
+  float: right !important;
+  width: 400px !important;
+}
+
+#main-room:not(.fullscreenParent) .left_section {
+  margin-right: 405px;
+}
+
+#main-room{
+    max-width: 100%;
+}
